@@ -4,11 +4,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import  time
 
-driver_path = '/Users/tronconudo/Desktop/Web server/WEB/desarollo/chromedriver'
+driver_path = '[ruta_path]'
 similiar_account = 'chefsteps'
 INSTAGRAM = 'https://instagram.com/'
-USERNAME = 'tronconudo'
-PASSWORD = '4Picapiedra3'
+USERNAME = '[usuario]'
+PASSWORD = '[contraseña_instagram]'
 
 class InstaFollower:
     def __init__(self):
